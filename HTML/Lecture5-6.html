@@ -1,0 +1,131 @@
+<!-- -----------------------------Lecture 5----------------------------- -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lecture 5 and 6</title>
+    <!-- favicon -->
+    <link
+      
+      href="https://i.pinimg.com/474x/1e/d6/e0/1ed6e0a9e69176a5fdb7e090a1046b86.jpg"
+      
+    />
+
+    <!-- styles -->
+    <style>
+      .city {
+        background-color: crimson;
+        color: white;
+      }
+
+      #special-city {
+        background-color: midnightblue;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- HTML Block and Inline Elements -->
+    <div style="background-color: darkgoldenrod">
+      I am block element
+      <p id="special-ciy">abc</p>
+    </div>
+    <p style="background-color: chartreuse">I am block element too</p>
+
+    <span style="background-color: cornflowerblue">i am inline element </span>
+
+    <!-- HTML class and id Attribute -->
+    <div class="city">
+      <h2>London</h2>
+      <p>London is the capital of England.</p>
+    </div>
+
+    <div class="city">
+      <h2>Paris</h2>
+      <p>Paris is the capital of France</p>
+    </div>
+
+    <div class="city">
+      <h2>Tokyo</h2>
+      <p>Tokyo is the capital of Japan.</p>
+    </div>
+
+    <div id="special-city" class="city">
+      <h2>Islamabad</h2>
+      <p>Islamabad is the capital of Pakistan</p>
+    </div>
+
+    <!-- HTML Iframes -->
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/_hTiyqFT49k?si=nOSWVShCHV5snHUE"
+      title="YouTube video player"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+
+    <!-- HTML Entities and symbols -->
+    <!-- 
+    https://www.w3schools.com/html/html_entities.asp
+
+    https://www.w3schools.com/html/html_symbols.asp
+    -->
+
+    <!-- --------------------------Lecture 6-------------------------------- -->
+
+    <!-- HTML Forms -->
+    <form>
+      <label for="fname">First name:</label>
+      <br />
+      <input type="text" id="fname" name="fname" />
+      <br />
+      <label for="lname">Last name:</label>
+      <br />
+      <input type="text" id="lname" name="lname" />
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <p>Choose your favorite Web language:</p>
+    <form>
+      <input type="radio" id="html" name="fav_language" value="HTML" />
+      <label for="html">HTML</label>
+      <br />
+      <input type="radio" id="css" name="fav_language" value="CSS" />
+      <label for="css">CSS</label>
+      <br />
+      <input
+        type="radio"
+        id="javascript"
+        name="fav_language"
+        value="JavaScript"
+      />
+      <label for="javascript">JavaScript</label>
+    </form>
+
+    <form>
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+      <label for="vehicle1"> I have a bike</label>
+      <br />
+      <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+      <label for="vehicle2"> I have a car</label>
+      <br />
+      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+      <label for="vehicle3"> I have a boat</label>
+    </form>
+
+    <form action="https://walmart.com" target="_blank">
+      <label for="fname">First name:</label>
+      <br />
+      <input type="text" id="fname" name="fname" />
+      <br />
+      <label for="lname">Last name:</label>
+      <br />
+      <input type="text" id="lname" name="lname" />
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>HTML Form Example</title>
+
+</head>
+
+<body>
+<h1>User Interactive Form</h1>
+
+<form action="">
+    <!-- Text Input -->
+    <label for="fname">Full Name:</label>
+    <br>
+    <input type="text" id="fname" name="fname"
+           placeholder="Enter your full name please"
+    />
+    <br><br>
+
+    <!-- Email Input -->
+    <label for="email">Email Address:</label>
+    <br>
+    <input type="email" id="email" name="email"
+           placeholder="Enter your email" />
+    <br><br>
+
+    <!-- Password Input -->
+    <label for="password">Password:</label>
+    <br>
+    <input type="password" pattern="[A-Za-z]{3,}"
+           id="password" name="password"
+           placeholder="Enter your password" />
+    <br><br>
+
+    <!-- Number Input -->
+    <label for="age">Age:</label>
+    <br>
+    <input type="number" id="age" name="age" min="18" max="25"/>
+    <br><br>
+
+    <!-- Date Input -->
+    <label for="dob">Date of Birth:</label>
+    <br>
+    <input type="date" id="dob" name="dob"/>
+    <br><br>
+
+    <!-- Time Input -->
+    <label for="appointment">Preferred Appointment Time:</label>
+    <br>
+    <input type="time" id="appointment" name="appointment"/>
+    <br><br>
+
+    <!-- Range Input -->
+    <label for="rating">Rate your experience (0-50):</label>
+    <br>
+    <input type="range" id="rating" name="rating" min="0" max="50"/>
+    <br><br>
+
+    <!-- Color Picker -->
+    <label for="favorite-color">Favorite Color:</label>
+    <br>
+    <input type="color" id="favorite-color" name="favorite-color"/>
+    <br><br>
+
+    <!-- Telephone Input -->
+    <label for="phone">Phone Number:</label>
+    <br>
+    <input type="tel" id="phone" name="phone"
+           placeholder="Enter your  number"/>
+    <br><br>
+
+    <!-- URL Input -->
+    <label for="website">Website URL:</label>
+    <br>
+    <input type="url" id="website" name="website"
+           placeholder="Enter your website URL"/>
+    <br><br>
+
+    <!-- Search Input -->
+    <label for="search">Search:</label>
+    <br>
+    <input type="search" id="search" name="search" placeholder="Search..."/>
+    <br><br>
+
+    <!-- Radio Buttons -->
+    <label for="gender">Gender:</label>
+    <br>
+    <input type="radio" id="male" name="gender" value="Male"/>
+    <label for="male">Male</label>
+    <br>
+    <input type="radio" id="female" name="gender" value="Female"/>
+    <label for="female">Female</label>
+    <br>
+    <input type="radio" id="other" name="gender" value="Other"/>
+    <label for="other">Other</label>
+
+    <br><br>
+
+    <!-- Checkbox -->
+    <label for="subs">Subscribe our channel</label>
+    <br>
+    <input type="checkbox" name="subs" id="yes"/>
+    <label for="yes">Yes subscribe</label>
+    <br>
+    <input type="checkbox" name="subs" id="yes2"/>
+    <label for="yes2">Yes subscribe and press bell icon</label>
+    <br><br>
+
+    <!-- Select Dropdown -->
+    <label for="country">Country:</label>
+    <br>
+    <select id="country" name="country">
+        <option value="usa">United States</option>
+        <option value="canada">Canada</option>
+        <option value="uk" selected>United Kingdom</option>
+        <option value="india" selected>India</option>
+    </select>
+    <br><br>
+
+    <!-- Multiple File Upload -->
+    <label for="files">Upload files:</label>
+    <br>
+    <input type="file" id="files" name="files" multiple/>
+    <br><br>
+
+    <!-- Text Area -->
+    <label for="message">Your Message:</label>
+    <br>
+    <textarea id="message" name="message" cols="10" rows="10"
+              placeholder="text..."></textarea>
+    <br><br>
+
+    <!-- Submit Button -->
+
+    <button type="submit" id="submitForm">Submit Form</button>
+    <button type="reset">Reset Form</button>
+</form>
+<br><br>
+<!-- html audio and video -->
+<!-- Only MP3, WAV, and Ogg audio are supported by the HTML standard. -->
+
+<video width="320" height="240"  controls muted autoplay>
+    <source src="audio-video/file_example_MP4.mp4" type="video/mp4"/>
+    Your browser does not support the video tag.
+</video>
+
+
+<audio controls muted autoplay >
+
+    <source src="audio-video/file_example_MP3.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
