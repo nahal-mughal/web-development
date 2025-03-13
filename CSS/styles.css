@@ -1,0 +1,59 @@
+h1 {
+    color: rgb(53, 105, 0);
+}
+
+
+h1 span {
+    color: red;
+}
+
+h2 span {
+    color: blue;
+}
+
+div,
+a,
+b {
+    color: violet;
+}
+
+.special{
+    background-color: black;
+    color: white;
+}
+
+#id-selector{
+    color: green;
+}
+
+/* #bg1 {
+    
+    background-color: red;
+    background-image: url("https://wallpapers.com/images/featured/desktop-lsjkr6wg7ctq97qv.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+
+} */
+
+/* #bg2{
+    background: #ffffff url("https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg") no-repeat right top;
+} */
+
+.border-example{
+    color: rgb(42, 9, 9);
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: rgb(24, 226, 145); */
+    border: 2px solid goldenrod;
+    padding: 5px;
+    border-radius: 5px;
+    /* margin: -20rem; */
+    /* border-left: 2px solid goldenrod ; */
+}
+.abc{
+    background: #000;
+    color: pink;
+    height: fit-content;
+    width: fit-content;
+}
