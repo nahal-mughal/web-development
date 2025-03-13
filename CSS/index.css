@@ -1,67 +1,15 @@
-div {
-    background-color: blue;
-    color: white;
-}
-
-/* ---------------CSS Selectors------------ */
-/* 1.element */
-p {
-    text-align: center;
-    color: red;
-}
-
-/* 2.id and class */
-#para1 {
-    text-align: center;
-    color: #ffb700;
-}
-
-.para2 {
-    text-align: center;
-    color: #00ff95;
-}
-
-/* 3.universal selector */
-* {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-/* 4.group selector */
-h3,
-h2,
-a {
-    color: crimson;
-}
-
-/* 5.child selector */
-span>a {
-    border: 2px solid blue;
+*{
+    margin: 0;
+    padding: 0;
 }
 
 
-/* -----------Css backgrounds----------- */
-#bg1 {
-    background-color: lightblue;
-    background-image: url("https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
+.child{
+    border: 10px solid goldenrod;
+    margin: 50px;
+    padding: 30px;
+    background-color: gray;
+    width: 500px;
+    height: 500px;
+    overflow: auto;
 }
-
-#bg2{
-    background: #ffffff url("https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg") no-repeat right top;
-}
-
-
-/* ------------Css borders--------- */
-p.dotted {border-style: dotted;}
-p.dashed {border-style: dashed;}
-p.solid {border-style: solid;}
-p.double {border-style: double;}
-p.groove {border-style: groove;}
-p.ridge {border-style: ridge;}
-p.inset {border-style: inset;}
-p.outset {border-style: outset;}
-p.none {border-style: none;}
-p.hidden {border-style: hidden;}
-p.mix {border-style: dotted dashed solid double;}

@@ -52,8 +52,18 @@ b {
     /* border-left: 2px solid goldenrod ; */
 }
 .abc{
-    background: #000;
+    background: #530000;
+    padding: 10px;
     color: pink;
-    height: fit-content;
-    width: fit-content;
+    width: 40%;
+    height: 200px;
+    float: left;
+}
+.abc1{
+    background: green;
+    padding: 10px;
+    color: black;
+    width: 40%;
+    height: 200px;
+    float: right;
 }
